@@ -27,7 +27,14 @@ const productionUrl = {
 };
 const baseUrl = 'https://rafaelv.com.br';
 
+const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
+  router: {
+    base: '/rviveiros.github.io/'
+  }
+} : {}
+
 module.exports = {
+  ...routerBase,
   env: {
     baseUrl,
     productionUrl
