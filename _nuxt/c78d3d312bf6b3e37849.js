@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{119:function(e,n,r){"use strict";r.r(n),n.default={title:"Rafael Viveiros - Entreprenuer & CTO",description:"Entreprenuer & CTO"}}}]);
