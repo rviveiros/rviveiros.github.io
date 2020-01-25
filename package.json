@@ -20,17 +20,13 @@
   "scripts": {
     "dev": "nuxt",
     "generate": "nuxt generate",
-    "analyze": "nuxt build --analyze",
-    "build:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt build",
-    "generate:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt generate",
-    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
+    "analyze": "nuxt build --analyze"
   },
   "devDependencies": {
     "frontmatter-markdown-loader": "^3.1.0",
     "node-sass": "^4.13.0",
     "responsive-loader": "^1.2.0",
     "sass-loader": "^8.0.0",
-    "sharp": "^0.23.4",
-    "push-dir": "^0.4.1"
+    "sharp": "^0.23.4"
   }
 }
